@@ -174,3 +174,275 @@ Our customer service team is always happy to hear from you.  you may find all th
 						<div class="head">Email At</div>
 						<div class="sub-title">kishes.j.tamayo@gmail.com</div>
 					</d
+						
+				@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,400&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none; 
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+/*Style for Navigation Bar */
+.navbar{
+	position: fixed;
+	width: 100%;
+	padding: 15px 0;
+	font-family: 'Montserrat', sans-serif;
+	background: tomato;
+	z-index: 1;
+}
+.navbar .sticky{
+	padding: 15px;
+	background: tomato;
+
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo a{
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .logo a:hover{
+	color: green;
+}
+.navbar .logo a span{
+	color: white;
+}
+.navbar .logo a span:hover{
+	color: pink;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+	display: block;
+	color: white;
+	font-size: 20px
+	font-weight: 600;
+	margin-left: 30px;
+	transition: all 0.5s linear;
+
+}
+.navbar .menu li a:hover{
+	color: red;
+}
+/*Style for Home Section */
+.home{
+	display: flex;
+	background: url("images/Kish1.jpg") repeat center;
+	height: 100vh;
+	color: red;
+	min-height: 500px;
+	max-height: 720px;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+}
+.home .max-width{
+	margin: auto 0 auto 30px; 
+}
+.home .home-content .text-1{
+	font-size: 25px;
+}
+.home .home-content .text-2{
+	font-size: 50px;
+	font-weight: 700;
+	margin-left: -3px;
+}
+.home .home-content .text-3{
+	font-size: 25px;
+}
+.home .home-content a{
+	display: inline-block;
+	background: red;
+	color: white;
+	font-size: 20px;
+	padding: 12px 36px;
+	margin-top: 30px;
+	border-radius: 20px;
+	transition: all 0.5s linear;
+
+}
+.home .home-content a:hover{
+	color: white;
+	background: turquoise;
+}
+
+/*Style for About Section */
+
+section{
+	padding: 100px 0;
+}
+.about{
+	display: flex;
+	background: url("images/kish3.jpg") repeat center;
+	background-size: cover;
+	background-attachment: scroll;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.about .title{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.about .about-content .left{
+	width: 45%;
+}
+.about .about-content .left img{
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+.about .about-content .right{
+	width: 55%;
+}
+.about .about-content .right .text{
+	margin-bottom: 20px;
+}	
+.about .about-content .right p{
+	font-size: 20px;
+	text-align: justify;
+}
+/*Style for About Section */
+.services{
+	color: black;
+	background: red;
+}
+.services .title{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+.services .services-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.services .services-content .card{
+	width: calc(33% - 20px);
+	background: white;
+	text-align: center;
+	border-radius: 6px;
+	padding: 20px 25px;
+}
+.services .services-content .card:hover{
+	background: aqua;
+}
+.services .services-content .card .box{
+	transition: all 0.3s ease;
+}
+.services .services-content .card .box:hover{
+	transform: scale(1.05); 
+}
+.services .services-content .card img{
+	height: 60px;
+	width: 60px;
+}
+.services .services-content .text{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	margin: 10px 0;	
+
+}
+.services .services-content p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+/*Style for About Section */
+.skills{
+	background: url("images/kish2.jpg") repeat center;
+	background-size: cover;
+	background-attachment: scroll;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.skills .title{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+.skills .skills-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.skills .skills-content .column{
+	width: calc(50% - 30px);
+}
+.skills .skills-content  .left .text{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.skills .skills-content  .left p{
+	text-align: justify;
+	font-size: 18px;
+}
+.skills .skills-content .left a{
+	display: inline-block;
+	background: red;
+	color: white;
+	font-size: 20px;
+	padding: 12px 36px;
+	margin-top: 30px;
+	border-radius: 20px;
+	
+}
+.skills .skills-content .left a:hover{
+	color: white;
+	background: turquoise;
+}
+.skills .skills-content .right .bar{
+	margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+	display: flex;
+	margin-bottom: 5px;
+	align-items: center;
+	justify-content: space-between;
+}
+.skills .skills-content .right .info:hover{
+	color: red;
+}
+.skills .skills-content .right span{
+	font-weight: 600;
+	font-size: 18px;
+	padding: 5px;
+}
+.skills .skills-content .right .line{
+	height: 10px;
+	width: 100%;
+	background: lightgray;
+	position: relative;
+
+}
+.skills .skills-content .right .line::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	left: 0;
+	right: 0;
